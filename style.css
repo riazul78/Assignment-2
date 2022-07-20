@@ -31,7 +31,7 @@ main{
 .title{
         color: white;
         font-family: 'Poppins', sans-serif;
-        font-size: 70px;
+        font-size: 80px;
         padding-bottom: 50px;
 }
 p{
@@ -46,6 +46,11 @@ p{
                color: white;
                padding: 8px 15px;
                border-radius: 5px;
+               transition: 5s;
+}
+.button-part:hover{
+              background-color: rgb(239, 218, 98);
+              color: rgb(101, 93, 93);
 }
 /* ----------------
 section one end here
@@ -115,12 +120,16 @@ section two start here
                font-size: 15px;
                
 }
+.blog-links:hover{
+                background-color: rgb(238, 82, 65);
+                color: whitesmoke;
+}
 .icon{
          margin-right: 20px;
          color: rgb(147, 141, 141);
 }
 .blog-title{
-                 font-size: 13px;
+                 font-size: 18px;
 }
 .hidden-button a{
         font-family: 'Roboto', sans-serif;
@@ -196,7 +205,7 @@ section two start here
                         .invisible{
                                 display: none;
                         }
-                        .button-part{
+                        .hidden-button a{
                                 display: visible;
                         }
     
@@ -226,6 +235,9 @@ mobile part start here
                            .blogs{
                                    flex-direction:column;
                                    align-items: center;
+                           }
+                           .blog-part-1{
+                                margin-bottom: 10px;
                            }
                            .blog-part-2{
                                    grid-template-columns: repeat(1,1fr);
