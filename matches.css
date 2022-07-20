@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+}                              
+                                /* main part */
+main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+/*---------------
+section one start here
+------------------- */
+.first-part{
+          width: 80%;
+          height: 100%;
+          background-color:#221f1f;
+          display: flex; 
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border-radius: 10px;
+          padding: 50px;  
+}
+.starting-part{
+           width:50%;
+          
+}
+.starting-part img{
+                   width: 100%;
+}
+.title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+p{
+color: rgb(189, 184, 184);
+margin-bottom: 50px;
+font-size: 15px;
+}
+.button-part{
+           text-decoration: none;
+           border: 1px solid #221f;
+           background-color: red;
+           color: white;
+           padding: 8px 15px;
+           border-radius: 5px;
+}
+/* ----------------
+section one end here
+---------------- */
+
+/* ------------------
+section two start here
+----------------------- */
+.second-part{    
+               width: 90%;
+               height: 100%;
+               padding:50px;
+               position:relative;
+               top: 50px; 
+               margin-bottom:50px;              
+         } 
+.blogs{
+     display: flex;
+  }
+    
+.blog-part-1{
+            width: 40%;
+            height: 200px;
+            background-color: #161616;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-right: 10px;
+            text-align: center;
+            
+}
+.links{
+      text-decoration: none;
+      border: 1px solid #221f;
+      background-color: white;
+      color: black;
+      padding: 8px 15px;
+      border-radius: 5px;
+}
+.blog-part-2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 40px;
+    
+}
+.blog{
+     width: 100%;
+     height: 150px;
+     position:relative;
+     border: 1px solid rgb(235, 233, 233);
+     border-radius: 10px;
+     padding:5px;
+     display:inline;
+    }
+.blog img{
+       width: 35%;
+       position: relative;
+       top: 15px;
+       left: 10px;
+}
+h4{
+     display: inline;
+     text-align: center;
+     margin-left: 10px;
+     font-size: 15px;
+}
+.match-title{
+               font-size: 16px;
+               text-align: center;
+               margin-top: 25px;
+}
+.match-time{
+             font-size: 12px;
+             text-align: center;
+}
+
+/*----------------------
+section two end here
+--------------------- */
+
+/*--------------------- footer part------------------ */
+footer{
+      width: 100%;
+      height: 280px;
+      background-color:rgb(27, 26, 26);
+      margin: 50px 0 0 0;
+}
+.footer-part{
+             width: 80%;
+             text-align: center;
+             margin-left: 10%;
+             padding-top: 80px; 
+             color: white;
+}
+hr{
+    margin-bottom: 20px;
+}
+.footer-links a{
+             text-decoration: none;
+             color: rgba(234, 229, 229, 0.94);
+             font-size: 11px;
+             margin-right: 10px;
+}
+.fa-brands{
+         padding-top: 50px;
+         margin-right: 10px;
+}
+/*------------------ footer end -------------------------*/
