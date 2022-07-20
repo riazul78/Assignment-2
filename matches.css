@@ -17,7 +17,7 @@ section one start here
           background-color:#221f1f;
           display: flex; 
           margin-top: 20px;
-          margin-bottom: 20px;
+          margin-bottom: 50px;
           border-radius: 50px;
           padding: 50px;  
 }
@@ -31,13 +31,13 @@ section one start here
 .title{
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    padding-bottom: 30px;
+    font-size: 30px;
+    padding-bottom: 40px;
 }
 p{
 color: rgb(189, 184, 184);
 margin-bottom: 50px;
-font-size: 12px;
+font-size: 15px;
 }
 .button-part{
            text-decoration: none;
