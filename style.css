@@ -31,12 +31,13 @@ main{
 .title{
         color: white;
         font-family: 'Poppins', sans-serif;
-        font-size: 50px;
+        font-size: 70px;
+        padding-bottom: 50px;
 }
 p{
     color: lightgray;
     margin-bottom: 50px;
-    font-size: 15px;
+    font-size: 20px;
 }
 .button-part{
                text-decoration: none;
@@ -160,80 +161,83 @@ section two start here
              padding-top: 50px;
              margin-right: 10px;
  }
- /*------------------ footer end -------------------------*/
+/*------------------ footer end -------------------------*/
 
  /*----------------------------- responsive part start here------------------------ */
 /*-------------------
  tablet responsive part
  --------------------- */
- @media screen and (min-width:577px) and (max-width:800px) {
-                        .first-part{ 
-                                width:100% ;
-                                }
-                                .blog-part-1{
-                                           width: 80%;
-                                           height: 40px;
-                                           display: flex;
-                                           flex-direction: row;
-                                           justify-content: space-between;
-                                           background-color: white;
-                                           padding: 10 10;
+ @media  screen and (min-width:577px) and (max-width:900px){
+                        .blogs{
+                                flex-direction: column;
+                        }
+                        .blog-part-1{
+                                 width: 80%;
+                                 flex-direction: row;
+                                 justify-content: space-between;
+                                 background-color: white;
+                                 height: 40px;
+                                 gap: 20px;
+                                 font-size: 20px;
+                                 margin-left: 20px;
+                        }
+                        .blog{
+                                height: 380px;
+                        }
+                        .links{
+                                padding: 10px 20px;
+                              }
+                        .button-part{
+                                  padding: 5px 50px;
+                        }
+                        .blog-part-2{
+                                   grid-template-columns: repeat(2,1fr);
+                        }
+                        .invisible{
+                                display: none;
+                        }
+                        .button-part{
+                                display: visible;
+                        }
+    
+}
 
-                                }
-                                .blog img{
-                                        width: 100%;
-                                }
-                                .blogs{
-                                        display: inline-block;
-                                        justify-content: center;
-                                }
-                                .blog-part-2{
-                                        display: grid;
-                                        grid-template-columns: repeat(2,1fr);
-
-                                }
-                                .blog{
-                                        width: 100%;
-                                        height: 350px;
-                                }
-                                }
 /*---------------------------
 tablet part end here
 --------------------------- */
 
 /*----------------------------
- mobile part start here 
- -------------------------*/
- @media screen and (max-width:576px){
-                  .first-part{ 
-                width:80% ;
-                }
-                .blog-part-1{
-                           width: 100%;
-                           height: 30px;
-                           display: flex;
-                           flex-direction: row;
-                           justify-content: space-around;
-                           gap: 20px;
-                           background-color: white;
-                           padding:0px;
-                           font-size: 15px;
-                           border: none;
-                }
-                .blogs{
-                        display: inline-block;
-                        justify-content: center;
-                }
-                .blog
-                .blog-part-2{
-                        display: grid;
-                        grid-template-columns: repeat(1,1fr);
-                }
-                .blog{
-                        width: 100%;
-                        height: 350px;
-                } 
- }
- /*------------------------
-  mobile part end here
-  ------------------------- */
+mobile part start here 
+-------------------------*/
+@media screen and (max-width:575px) {
+                           .first-part{
+                                 flex-direction: column-reverse;
+                                 height: 100%;
+                                 width:50%;
+                                 align-items: center;
+                                 text-align: center;
+                           }
+                           .welcome-text, .text{
+                                         font-size: 15px;
+                           }
+                           .starting-part , img{
+                                width: 100%;
+                           }
+                           .blogs{
+                                   flex-direction:column;
+                                   align-items: center;
+                           }
+                           .blog-part-2{
+                                   grid-template-columns: repeat(1,1fr);
+                           }
+                           .blog{
+                                  height: 400px;
+                           }
+                           footer{
+                                   width: 100%;
+                           }
+
+}
+/*------------------------
+mobile part end here
+------------------------- */
