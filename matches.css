@@ -18,7 +18,7 @@ section one start here
           display: flex; 
           margin-top: 20px;
           margin-bottom: 20px;
-          border-radius: 10px;
+          border-radius: 50px;
           padding: 50px;  
 }
 .starting-part{
@@ -137,6 +137,7 @@ footer{
 }
 .footer-part{
              width: 80%;
+             font-family: 'Roboto', sans-serif;
              text-align: center;
              margin-left: 10%;
              padding-top: 80px; 
@@ -144,6 +145,7 @@ footer{
 }
 hr{
     margin-bottom: 20px;
+    border:1px solid #3a3939;
 }
 .footer-links a{
              text-decoration: none;
